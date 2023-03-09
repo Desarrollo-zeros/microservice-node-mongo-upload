@@ -12,7 +12,7 @@
 ### Run
 ```
 > git clone https://github.com/Desarrollo-zeros/microservice-node-mongo-upload.git
-> cd nodejs-microservice-node-mongo-upload
+> cd microservice-node-mongo-upload
 > npm install
 > npm start
 ```
