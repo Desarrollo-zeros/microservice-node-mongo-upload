@@ -31,6 +31,7 @@ docker run -d -p portExport:portInternal --name test-mongo mongo:latest
 docker build . -t <your username>/node-web-app
 
 - Run the image
-docker run -p 49160:8080 -d <your username>/node-web-app
+docker run -p 3000:3000 -d <your username>/node-web-app
+docker run -p portExport:portInternal -d <your username>/node-web-app
 
 ```
